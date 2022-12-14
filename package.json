@@ -9,8 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@square/web-sdk": "^2.0.1",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "bootstrap": "^5.2.3",
+    "emailjs": "^4.0.1",
     "next": "13.0.6",
+    "next-transpile-modules": "^10.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-square-web-payments-sdk": "^3.2.1",
+    "square": "^24.0.0"
   }
 }
