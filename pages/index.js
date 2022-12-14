@@ -24,7 +24,7 @@ export default function Home() {
         <Navbar />
           <div class="main-body">
           <div class="grid">
-              <img src='./weightloss2.jpg' alt="weight loss image 1" class="header-image"/>
+              <img src='./weightloss2.jpg' alt="weight loss image 1" class="header-image" sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, 1280px"/>
               <h2>Semaglutide Weight Loss: Our Mission</h2>
               <p>In Today’s society, one of the most common struggles with people’s self esteem is often geared towards their struggles with being overweight. That is why in a world full of crash dieting and weight loss gimmicks, we at Fit Body Faster aim to provide a medical, long lasting solution; Semaglutide treatment. </p>
           </div>
