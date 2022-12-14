@@ -44,7 +44,7 @@ export default function Home() {
           <div class="grid">
               <h2>How Do You Use Semaglutide?</h2>
               <p>Semaglutide is administered subcutaneously via a small injection. These injections are only to be administered once a week. Please watch this helpful youtube video on how to properly prepare yourself and administer an injection:</p>
-              <iframe width="360" height="315" src="https://www.youtube.com/embed/SjrIit0fYgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/SjrIit0fYgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
           </div>
           <div class="grid">
               <h2>Am I a Good Candidate for Semaglutide?</h2>
