@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import Payment from '../components/checkoutform'
 import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
