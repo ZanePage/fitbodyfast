@@ -7,7 +7,7 @@ const Navbar = () => {
             <div class="tabs">
                 <a href="/about">Meet our Doctors</a>
                 <a href="/initial">Contact Us</a>
-                <a href="/refill">Refils</a>
+                <a href="/refill">Refills</a>
             </div>
         </div>
      );
