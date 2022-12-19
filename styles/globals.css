@@ -22,9 +22,8 @@ a {
 }
 
 .header-image {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
-  padding-bottom: 3rem;
 }
 
 iframe {
@@ -32,7 +31,24 @@ iframe {
   width: 360px;
 }
 
+
+.tabs-small {
+  visibility: hidden;
+  display: none;
+  color: #F3EFE0;
+}
+
 @media(max-width:700px) {
+  .tabs-full {
+    visibility: hidden;
+    display: none;
+  }
+
+  .tabs-small {
+    visibility: visible;
+    display: contents;
+  }
+
   .header-image {
     max-width: 100%;
     height: auto;
@@ -50,7 +66,19 @@ iframe {
   }
 }
 
-.nav {
+.drop-tabs {
+  padding-left: 10px;
+  color: #F3EFE0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.drop-tabs a:hover {
+  font-weight: bold;
+}
+
+.nav-full {
   background-color: #434242;
   display: grid;
   grid-template-rows: auto;
@@ -60,7 +88,7 @@ iframe {
   align-items: stretch;
   column-gap: 20px;
   width: 100%;
-  height: 5%;
+  height: 15%;
 }
 
 footer {
@@ -74,7 +102,10 @@ footer {
 .title {
   color: #F3EFE0;
   grid-column: 1;
-  margin-left: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .tabs {
@@ -83,7 +114,7 @@ footer {
   justify-content: end;
   align-items: center;
   grid-column: 2;
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
@@ -100,6 +131,11 @@ footer {
   padding: 10px;
 }
 
+.tabs button {
+  background-color: #434242;
+  border: none;
+}
+
 .pay-form {
   margin-top: 5rem;
   margin-left: auto;
@@ -112,12 +148,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 10px;
   background: #F3EFE0;
   padding-bottom: 15px;
   align-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
   border: 3px solid #22A39F;
   border-style: none solid none none;
   text-align: center;
@@ -134,11 +167,24 @@ footer {
 
 .main-body h2 {
   font-weight: bold;
-  text-decoration: underline;
+  font-size: 40px;
+  color: #22A39F;
+  padding-bottom: 10px;
+}
+
+.main-body hr {
+  color: #22A39F;
+  border-top: 5px solid;
 }
 
 .mission {
-  color: #222222
+  color: #222222;
+  margin: 15px;
+  max-width: 100%;
+  height: 100%;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 40px 15% 60px 15%;
 }
 
 .main-list {
@@ -199,6 +245,17 @@ footer {
   margin-top: 1rem;
 }
 
+.main-body button {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #434242;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 75px;
+}
+
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
@@ -223,4 +280,18 @@ input[type="submit"] {
   border-radius: 5px;
   width: 250px;
   height: 50px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box {
+  height: 300px;
+  width: 500px;
+  background-color: green;
 }
