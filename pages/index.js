@@ -5,7 +5,9 @@ import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Header from '../components/Header';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaRegPaperPlane } from 'react-icons/fa';
+import { BsFillCalendarCheckFill } from "react-icons/bs";
+import { AiOutlineMedicineBox } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -34,18 +36,23 @@ export default function Home() {
               <hr />
           </div>
           <div class="getstarted">
-            <h2>It has never been easier to lose weight!</h2>            
+            <h2>It has never been easier to lose weight!</h2>       
+            <h4>How to get started:</h4>     
             <div class="box-container">
               <div class="box">
-                Analyze
+                <h3>Send Request</h3>
+                <FaRegPaperPlane size={80}/>
               </div>
               <div class="box">
-                Plan
+                <h3>Arrange a Tele-consult</h3>
+                <BsFillCalendarCheckFill size={80}/>
               </div>
               <div class="box">
-                Service
+                <h3>Order Medication</h3>
+                <AiOutlineMedicineBox size={80}/>
               </div>
             </div>
+            <a href="/initial"><button>Send a Request Now!</button></a>
           </div>
         </div>
         <Footer />

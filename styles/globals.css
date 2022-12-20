@@ -19,6 +19,7 @@ a {
   max-width: 500px;
   height: auto;
   padding-bottom: 3rem;
+  box-shadow: 10px 5px 5px #222222;
 }
 
 .header-image {
@@ -55,6 +56,8 @@ iframe {
   }
 
   .mid-image {
+    visibility: hidden;
+    display: none;
     max-width: 80%;
     height: auto;
     padding-bottom: 3rem;
@@ -63,6 +66,23 @@ iframe {
   iframe {
     max-width: 200px;
     height: auto;
+  }
+
+  .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    background-color: #222222;
+    height: 200px;
+    border-radius: 10px;
+    color: #F3EFE0;
+    flex: 1 1 auto;
+  }
+
+  .glute-sec {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -283,15 +303,68 @@ input[type="submit"] {
 }
 
 .box-container {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
-  column-gap: 15px;
+  column-gap: 20px;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button1 {
+  background-color: #222222;
+  color: #F3EFE0;
 }
 
 .box {
-  height: 300px;
-  width: 500px;
-  background-color: green;
+  background-color: #222222;
+  height: 200px;
+  border-radius: 10px;
+  color: #F3EFE0;
+  flex: 1 1 auto;
+  margin: 10px;
+}
+
+.box h3 {
+  padding: 15px 15px 15px 15px;
+}
+
+.semaglute {
+  font-size: 20px;
+}
+
+.glute-sec {
+  margin: 30px 7% 0 7%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.semaglute h2 {
+  color: #22A39F;
+  font-size: 45px;
+}
+
+.blok {
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.how-sec {
+  margin: 30px 7% 0 7%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.use {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  flex-direction: column;
+  margin: 30px 7% 0 7%;
 }
