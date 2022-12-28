@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div class="getstarted">
             <h2>It has never been easier to lose weight!</h2>       
-            <h4>How to get started:</h4>     
+            <h4>How to get started:</h4>
             <div class="box-container">
               <div class="box">
                 <h3>Send Request</h3>
