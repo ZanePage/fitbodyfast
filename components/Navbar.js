@@ -24,6 +24,7 @@ const Navbar = () => {
                 <a class="tabs-full" href="/injection">Administer injection</a>
                 <a class="tabs-full" href="/initial">Contact Us</a>
                 <a class="tabs-full" href="/refill">Refills</a>
+                <a href="NoticePrivacyPractice.pdf" class="tabs-full">Privacy</a>
                 <div class="tabs-small" onClick={handleClick}><FaBars size={60}/></div>
             </div>
             <div>
@@ -34,6 +35,7 @@ const Navbar = () => {
                     <a href="/injection">Administer injection</a>
                     <a href="/initial">Contact Us</a>
                     <a href="/refill">Refills</a>
+                    <a href="NoticePrivacyPractice.pdf" class="tabs-full">Privacy</a>
                 </div>
             )}
             </div>
