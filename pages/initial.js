@@ -1,9 +1,10 @@
+import Footer from "../components/Footer";
 import { ContactForm } from "../components/initial-contact-form";
 import Navbar from "../components/Navbar";
 
 export default function Contact() {
     return (
-        <div>
+        <div class="cont">
             <Navbar />
             <div class="styledform">
                 <div>

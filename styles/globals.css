@@ -190,6 +190,11 @@ footer {
   padding-bottom: 10px;
 }
 
+.cont {
+  height: 100vh;
+  background-color: #F3EFE0;
+}
+
 .main-body h2 {
   font-weight: bold;
   font-size: 40px;

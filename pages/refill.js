@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Contact() {
     return (
-        <div>
+        <div class="cont">
             <Navbar />
             <div class="styledform">
                 <div>
@@ -13,6 +13,6 @@ export default function Contact() {
                 </div>
                 <ContactForm />
             </div>
-]       </div>
+        </div>
     );
 }
