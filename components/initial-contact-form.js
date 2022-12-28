@@ -10,7 +10,7 @@ export const ContactForm = () => {
 
         emailjs.sendForm('service_wr1qdns', 'template_h83tcfi', form.current, 'O776pFYxxWIHH4Ns1')
             .then((result) => {
-                alert("Form Submited Sucessfully!")
+                alert("Form Submited Sucessfully! Please check your email for our intake form!")
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);

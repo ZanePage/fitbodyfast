@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { AiOutlineWarning } from 'react-icons/ai'
+import { AiOutlineWarning } from 'react-icons/ai';
+
 export default function Semaglutide() {
     return (
         <div>
@@ -16,13 +17,6 @@ export default function Semaglutide() {
                 <div class="how-sec">
                     <h2>How Does Semaglutide Work?</h2>
                     <p>As a part of the medication class of glucagon-like peptide-1 (GLP-1) agonists, this medication acts as a hunger suppressor in the body. Essentially, GLP-1 agonists work by stimulating the pancreas to elevate insulin production. This elevation of insulin in turn causes a signaling cascade in your body, leading to a prolonged time in which the stomach will empty itself. The end result is feeling fuller for a longer period of time, which allows you to curb cravings without the feelings of starvation or invasive surgeries.</p>
-                </div>
-                <div class="use">
-                    <div>
-                        <h2>How Do You Use Semaglutide?</h2>
-                        <p>Semaglutide is administered subcutaneously via a small injection. These injections are only to be administered once a week. Please watch this helpful youtube video on how to properly prepare yourself and administer an injection:</p>
-                    </div>
-                    <iframe src="https://www.youtube.com/embed/SjrIit0fYgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
                 </div>
                 <div class="use">
                     <h2>Am I a Good Candidate for Semaglutide?</h2>

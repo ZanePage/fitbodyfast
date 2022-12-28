@@ -28,6 +28,7 @@ a {
 }
 
 iframe {
+  max-height: 315px;
   height: 315px;
   width: 360px;
 }
@@ -61,11 +62,6 @@ iframe {
     max-width: 80%;
     height: auto;
     padding-bottom: 3rem;
-  }
-
-  iframe {
-    max-width: 200px;
-    height: auto;
   }
 
   .box-container {
@@ -176,6 +172,10 @@ footer {
   text-align: center;
 }
 
+.getstarted {
+  font-size: 22px;
+}
+
 .grid {
   margin: 15px;
   max-width: 100%;
@@ -183,12 +183,17 @@ footer {
   font-weight: 500;
 }
 
-
+.main-body h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #222222;
+  padding-bottom: 10px;
+}
 
 .main-body h2 {
   font-weight: bold;
   font-size: 40px;
-  color: #22A39F;
+  color: #222222;
   padding-bottom: 10px;
 }
 
@@ -308,7 +313,7 @@ input[type="submit"] {
   padding-top: 30px;
   display: flex;
   flex-direction: row;
-  column-gap: 20px;
+  column-gap: 15px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -333,18 +338,20 @@ input[type="submit"] {
 }
 
 .semaglute {
+  background-color: #F3EFE0;
   font-size: 20px;
 }
 
 .glute-sec {
-  margin: 30px 7% 0 7%;
+  margin: 0 7% 0 7%;
+  padding-top: 3rem;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .semaglute h2 {
-  color: #22A39F;
+  color: #222222;
   font-size: 45px;
 }
 
@@ -367,4 +374,26 @@ input[type="submit"] {
   font-weight: bold;
   flex-direction: column;
   margin: 30px 7% 0 7%;
+  padding-bottom: 3rem;
+}
+
+.injections {
+  font-size: 20px;
+  background-color: #F3EFE0;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+  color:#222222;
+}
+
+.header-text {
+  font-size: 100px;
+  color: #222222;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-45%, -45%);
 }

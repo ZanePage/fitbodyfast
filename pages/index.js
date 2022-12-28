@@ -7,14 +7,14 @@ import Container from 'react-bootstrap/Container';
 import Header from '../components/Header';
 import { FaBars, FaRegPaperPlane } from 'react-icons/fa';
 import { BsFillCalendarCheckFill } from "react-icons/bs";
-import { AiOutlineMedicineBox } from "react-icons/ai";
+import { AiOutlineMedicineBox, AiOutlineHome } from "react-icons/ai";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Fit Bodies Faster</title>
-        <meta name="description" content="Fit Bodies Fast: Semiglutide Weight Loss" />
+        <meta name="description" content="Fit Bodies Faster: Weight Loss" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -30,9 +30,10 @@ export default function Home() {
         <Header />
           <div class="main-body">
           <div class="mission">
-              <h2>Semaglutide Weight Loss: Our Mission</h2>
-              <p>In Today’s society, one of the most common struggles with people’s self esteem is often geared towards their struggles with being overweight. That is why in a world full of crash dieting and weight loss gimmicks, we at Fit Body Faster aim to provide a medical, long lasting solution; Semaglutide treatment. </p>
-              <a href="/initial"><button>Contact Us for a Free Consulation</button></a>
+              <h1>Fit Body Faster</h1> 
+              <h2>Our Mission</h2>
+              <p>In Today’s society, one of the most common struggles with people’s self esteem is often geared towards their struggles with being overweight. That is why in a world full of crash dieting and weight loss gimmicks, we at Fit Body Faster aim to provide tele-health based long lasting solutions. </p>
+              <a href="/initial"><button>Contact Us for a Free Consulation!</button></a>
               <hr />
           </div>
           <div class="getstarted">
@@ -51,8 +52,12 @@ export default function Home() {
                 <h3>Order Medication</h3>
                 <AiOutlineMedicineBox size={80}/>
               </div>
+              <div class="box">
+                <h3>Medication Arrives</h3>
+                <AiOutlineHome size={80}/>
+              </div>
             </div>
-            <a href="/initial"><button>Send a Request Now!</button></a>
+            <a href="/initial"><button>Contact Us Now!</button></a>
           </div>
         </div>
         <Footer />

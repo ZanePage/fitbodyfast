@@ -21,6 +21,7 @@ const Navbar = () => {
             <div class="tabs">
                 <a class="tabs-full" href="/about">Meet our Doctors</a>
                 <a class="tabs-full" href="/semaglutide">About Semaglutide Treatment</a>
+                <a class="tabs-full" href="/injection">Administer injection</a>
                 <a class="tabs-full" href="/initial">Contact Us</a>
                 <a class="tabs-full" href="/refill">Refills</a>
                 <div class="tabs-small" onClick={handleClick}><FaBars size={60}/></div>
@@ -30,6 +31,7 @@ const Navbar = () => {
                 <div class="drop-tabs">
                     <a href="/about">Meet our Doctors</a>
                     <a href="/semaglutide">About Semaglutide Treatment</a>
+                    <a href="/injection">Administer injection</a>
                     <a href="/initial">Contact Us</a>
                     <a href="/refill">Refills</a>
                 </div>
