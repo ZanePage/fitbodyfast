@@ -13,7 +13,7 @@ const Navbar = () => {
         console.log('div clicked');
     };
 
-    return (    
+    return (
         <div class="nav-full">
             <div class="title">
                 <h1><a href="/">Fit Body Faster</a></h1>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <a class="tabs-full" href="/injection">Administer injection</a>
                 <a class="tabs-full" href="/initial">Contact Us</a>
                 <a class="tabs-full" href="/refill">Refills</a>
-                <a href="NoticePrivacyPractice.pdf" class="tabs-full">Privacy</a>
+                <a href="fbfprivacy.pdf" class="tabs-full">Privacy</a>
                 <div class="tabs-small" onClick={handleClick}><FaBars size={60}/></div>
             </div>
             <div>
