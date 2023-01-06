@@ -406,3 +406,20 @@ input[type="submit"] {
 .ls {
   text-align: left;
 }
+
+.doctors {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio {
+  padding: 15rem;
+  text-align: center;
+  font-size: 25px;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.background {
+  background-color: #F3EFE0;
+}
